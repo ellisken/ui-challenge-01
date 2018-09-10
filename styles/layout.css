@@ -1,0 +1,25 @@
+/* === MEDIA QUERY === */
+@media (max-width: 768px) {
+  body {
+      min-width: 480px;
+  }
+
+  header{
+    outline: 2px black solid;
+    width: 480px;
+    height: 75px;
+  }
+}
+
+@media (max-width: 960px) {
+  body {
+      min-width: 960px;
+  }
+
+  header{
+    outline: 2px black solid;
+    width: 960px;
+    height: 100px;
+  }
+  
+}

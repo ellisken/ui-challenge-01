@@ -1,0 +1,33 @@
+header{
+  outline: 2px black solid;
+  width: 480px;
+  height: 75px;
+}
+
+nav{
+  outline: 2px blue solid;
+  width: 480px;
+  height: 150px;
+}
+
+div.big{
+  outline: 2px #800080 solid;
+  width: 480px;
+  height: 125px;
+}
+
+section{
+  outline: 2px red solid;
+}
+
+div.small{
+  outline: 2px orange solid;
+  width: 240px;
+  height: 250px;
+}
+
+footer{
+  outline: 2px green solid;
+  width: 480px;
+  height: 80px;
+}
