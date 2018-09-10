@@ -5,6 +5,30 @@
   text-align: center;
 }
 
+div.big{
+  width: 480px;
+  height: 125px;
+}
+
+.flex1{
+  display: flex;
+  flex-flow: row wrap;
+  width: 480px;
+  height: 250px;
+}
+
+.flex2{
+  display: flex;
+  flex-flow: row wrap;
+  width: 480px;
+  height: 500px;
+}
+
+div.small{
+  width: 240px;
+  height: 250px;
+}
+
 #c{
   background-color: rgba(250, 217, 0, 0.4);
 }
