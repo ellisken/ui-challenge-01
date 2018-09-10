@@ -2,12 +2,13 @@
 
 @media (min-width: 768px) {
   header{
-    outline: 2px black solid;
+    background-color: rgba(20, 40, 20, 0.6);
     width: 960px;
     height: 100px;
   }
 
   nav{
+    background-color: rgba(255, 0, 0, 0.6);
     width: 200px;
     height: 600px;
     float: left;
@@ -42,9 +43,34 @@
   }
   
   footer{
+    background-color: rgba(26, 26, 224, 0.6);
     width: 760px;
     height: 150px;
     float: left;
+  }
+
+  section #h{
+    background-color: rgba(250, 217, 0, 0.8);
+  }
+
+  section #g{
+    background-color: rgba(71, 231, 71, 0.8);
+  }
+
+  section #f{
+    background-color: rgba(121, 130, 255, 0.8);
+  }
+  
+  section #e{
+    background-color: rgba(255, 121, 155, 0.8);
+  }
+  
+  section #d{
+    background-color: rgba(195, 121, 255, 0.8);
+  }
+  
+  section #c{
+    background-color: rgba(255, 193, 121, 0.8);
   }
 }
 
