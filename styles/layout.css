@@ -1,10 +1,6 @@
 /* === MEDIA QUERY === */
 
-@media (min-width: 960px) {
-  body {
-    min-width: 960px;
-  }
-  
+@media (min-width: 768px) {
   header{
     outline: 2px black solid;
     width: 960px;
@@ -12,39 +8,69 @@
   }
 
   nav{
-    max-width: 200px;
+    width: 200px;
     height: 600px;
+    float: left;
   }
   
   div.big{
-    max-width: 380px;
+    width: 380px;
     height: 200px;
   }
   
   section{
     outline: 2px red solid;
   }
+
+  .flex1{
+    width: 760px;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .flex2{
+    width: 760px;
+    height: 250px;
+    display: flex;
+    flex-flow: row wrap;
+  }
   
   div.small{
-    max-width: 190px;
+    width: 190px;
     height: 250px;
   }
   
   footer{
-    max-width: 760px;
+    width: 760px;
     height: 150px;
-  }
-
-  .flex1{
-    display: flex;
-    flex-wrap: wrap;
+    float: left;
   }
 }
 
 
-@media (min-width: 768px) {
-  body {
-      min-width: 480px;
+@media (max-width: 768px) {
+  div.big{
+    width: 480px;
+    height: 125px;
   }
-
+  
+  .flex1{
+    display: flex;
+    flex-flow: row wrap;
+    width: 480px;
+    height: 250px;
+  }
+  
+  .flex2{
+    display: flex;
+    flex-flow: row wrap;
+    width: 480px;
+    height: 500px;
+  }
+  
+  div.small{
+    width: 240px;
+    height: 250px;
+  }
 }
