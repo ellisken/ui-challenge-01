@@ -1,3 +1,10 @@
+.text-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 #c{
   background-color: rgba(250, 217, 0, 0.4);
 }
