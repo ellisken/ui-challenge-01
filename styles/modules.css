@@ -1,0 +1,45 @@
+div.big{
+  width: 480px;
+  height: 125px;
+}
+
+.flex2{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex2{
+  display: flex;
+  flex-flow: row wrap;
+  width: 480px;
+  height: 500px;
+}
+
+div.small{
+  width: 240px;
+  height: 250px;
+}
+
+#c{
+  background-color: rgba(250, 217, 0, 0.4);
+}
+
+#d{
+  background-color: rgba(71, 231, 71, 0.4);
+}
+
+#e{
+  background-color: rgba(121, 130, 255, 0.4);
+}
+
+#f{
+  background-color: rgba(255, 121, 155, 0.4);
+}
+
+#g{
+  background-color: rgba(195, 121, 255, 0.4);
+}
+
+#h{
+  background-color: rgba(255, 193, 121, 0.4);
+}
